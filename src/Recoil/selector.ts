@@ -16,17 +16,3 @@ export const testStateSelector = selector({
         set(testState, newValue);
     }
 })
-
-// export const testGithubDataSelector = selector({
-//     key: 'testGithubDataSelector',
-//     get: async ({get}: {get: GetRecoilValue}) => {
-//         const response = await axios.get(`${rootUrl}`)
-//         // const githubData = get(githubApiState)
-//         console.log(response.data)
-//         return response.data;
-//     },
-//     set: ({set}, data: any) => {
-//         set(githubApiState, data)
-//     }
-// })
-
