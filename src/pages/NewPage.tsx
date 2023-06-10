@@ -1,8 +1,12 @@
+import Header from '@/helpers/Header'
 import React from 'react'
 
 function NewPage() {
   return (
-    <div>NewPage</div>
+    <>
+        <Header />
+        <div>NewPage</div>
+    </>
   )
 }
 
