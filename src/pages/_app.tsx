@@ -4,6 +4,7 @@ import { RecoilRoot } from "recoil"
 import '../app/globals.css'
 import { CssBaseline } from '@mui/material'
 import { ThemeProvider, createTheme } from "@mui/material/styles"
+import Header from '@/helpers/Header'
 
 
 
@@ -26,6 +27,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <RecoilRoot>
       <ThemeProvider theme={theme}>
         <CssBaseline />
+        <Header />
         <Component {...pageProps} />
       </ThemeProvider>
     </RecoilRoot>

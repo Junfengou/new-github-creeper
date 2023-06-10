@@ -1,18 +1,61 @@
 :root {
 
-  --gc-orange: #f66a0a;
-	--gc-green: #28a745;
-	--gc-blue: #0070f3;
-	--gc-lightBlue: #79b8ff;
-	--gc-lightestBlue: #c8e1ff;
-	--gc-offWhite: #e2e9ee;
-	--gc-grey: #6a737d;
-	--gc-grey2: #586069;
-	--gc-black: #1a1e22;
-	--gc-darkGrey: #24292e;
-	--gc-white: #ffffff;
-	--gc-purple: #d075e0;
-	--gc-pink: #e367a9;
+  --color-github: #000000;
+		--color-gmail: #e2afff;
+		--color-linkedin: #caf0f8;
+
+		--color-grey: #37322E;
+		--color-grey-light: #DFD7D7;
+
+		--color-white: #ffffff;
+		--color-black: #000000;
+
+		--color-orange: #FFC331;
+		--color-purple: #CDB4DB;
+		--color-blue: #318CFE;
+		--color-red: #dc2f02;
+
+		--color-book: #A259FF;
+		--color-course: #EA4335;
+		--color-conference: #2BA977;
+		--color-employment: #1F9CF0;
+
+		--color-primary: var(--color-blue);
+
+   /* // ------------------------------------------> */
+
+		--radius-xs: 2px;
+		--radius-sm: 4px;
+		--radius-md: 6px;
+		--radius-lg: 12px;
+		--radius-xl: 20px;
+
+		--shadow-1: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+		--shadow-2: -1px 1px 2px 0 rgba(0, 0, 0, 0.25);
+		--shadow-3: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+		--shadow-4: 0 6px 4px 0 rgba(0, 0, 0, 0.35);
+		--shadow-5: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+
+		--space-xs: 0.2rem;
+		--space-sm: 0.4rem;
+		--space-md: 0.6rem;
+		--space-lg: 0.8rem;
+		--space-xl: 1rem;
+
+		--font-text: 'Roboto', sans-serif;
+		--font-heading: 'Sen', sans-serif;
+
+		--weight-thin: 300;
+		--weight-rg: 400;
+		--weight-bold: 550;
+
+		--text-xs: 1.3rem;
+		--text-sm: 1.6rem;
+		--text-md: 1.8rem;
+		--text-lg: 2rem;
+		--text-xl: 2.3rem;
+
+	/* // ------------------------------------------> */
 
   --max-width: 1100px;
   --border-radius: 12px;
