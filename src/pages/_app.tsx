@@ -1,6 +1,6 @@
 import React from 'react'
 import { AppProps } from "next/app"
-// import { RecoilRoot } from "recoil"
+import { RecoilRoot } from "recoil"
 import '../app/globals.css'
 import { CssBaseline } from '@mui/material'
 import { ThemeProvider, createTheme } from "@mui/material/styles"
@@ -23,10 +23,12 @@ function MyApp({ Component, pageProps }: AppProps) {
   })
 
   return (
-    <ThemeProvider theme={theme}>
+    <RecoilRoot>
+      <ThemeProvider theme={theme}>
         <CssBaseline />
         <Component {...pageProps} />
-    </ThemeProvider>
+      </ThemeProvider>
+    </RecoilRoot>
   )
 }
 
